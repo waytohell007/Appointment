@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 two_hours_ago = datetime.utcnow() - timedelta(hours=2)
 
 # MongoDB connection details
-client = MongoClient("mongodb://tech_readdb:tech_readdb" + "@10.27.15.136:37018/fluprod_minervadb")
+client = MongoClient("mongodb://username:password" + "@ip:port/dbname")
 db = client.fluprod_minervadb
 
 # Email configuration
